@@ -113,8 +113,8 @@ cd /home/vps/public_html
 cd /home/vps/public_html
 #wget https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master/OCSPanel.zip
 wget https://github.com/arjaybadules/deb8ocspanel_en/raw/master/Deb8OCSPanel_EN_v1.2.zip
-unzip Deb8OCSPanel_EN_v1.2
-rm -f Deb8OCSPanel_EN_v1.2
+unzip Deb8OCSPanel_EN_v1.2.zip
+rm -f Deb8OCSPanel_EN_v1.2.zip
 chown -R www-data:www-data /home/vps/public_html
 chmod -R g+rw /home/vps/public_html
 
